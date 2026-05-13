@@ -146,3 +146,4 @@ The shape language is "Organic-Geometric."
 - **Chips/Tags:** Used for therapy specializations (e.g., "Anxiety," "Mindfulness"). These should be pill-shaped with Sage backgrounds and Forest green text.
 - **Lists:** Use custom botanical bullet points (e.g., a small leaf icon) instead of standard circles to reinforce the brand narrative.
 - **Interactive States:** Hover states should involve a gentle shift in color temperature (e.g., Sage becoming slightly warmer) rather than a drastic change in brightness.
+
