@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jardín Interior | Psicología Clínica</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Literata:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-fixed": "#c8ead8",
+                    "surface-dim": "#dbdad5",
+                    "on-error": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "on-secondary-fixed": "#111f0f",
+                    "on-secondary-container": "#596954",
+                    "error": "#ba1a1a",
+                    "inverse-primary": "#adcebd",
+                    "surface": "#fbf9f4",
+                    "on-primary-fixed-variant": "#2f4d40",
+                    "surface-container-low": "#f5f3ee",
+                    "surface-container": "#f0eee9",
+                    "surface-bright": "#fbf9f4",
+                    "primary-fixed-dim": "#adcebd",
+                    "outline": "#727974",
+                    "on-background": "#1b1c19",
+                    "tertiary-container": "#6e351f",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary": "#521f0b",
+                    "background": "#fbf9f4",
+                    "secondary-fixed": "#d6e8ce",
+                    "inverse-on-surface": "#f2f1ec",
+                    "on-tertiary-fixed": "#380d00",
+                    "on-surface": "#1b1c19",
+                    "on-primary-container": "#99baa9",
+                    "on-tertiary-container": "#f09f82",
+                    "primary": "#163428",
+                    "surface-variant": "#e4e2dd",
+                    "on-tertiary": "#ffffff",
+                    "surface-tint": "#466557",
+                    "on-surface-variant": "#424844",
+                    "surface-container-highest": "#e4e2dd",
+                    "inverse-surface": "#30312e",
+                    "on-tertiary-fixed-variant": "#703620",
+                    "secondary-fixed-dim": "#baccb3",
+                    "on-primary-fixed": "#012116",
+                    "tertiary-fixed-dim": "#ffb59b",
+                    "secondary-container": "#d6e8ce",
+                    "outline-variant": "#c1c8c3",
+                    "on-error-container": "#93000a",
+                    "surface-container-high": "#eae8e3",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed-variant": "#3c4b38",
+                    "secondary": "#53634e",
+                    "tertiary-fixed": "#ffdbcf",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#2d4b3e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-desktop": "80px",
+                    "margin-mobile": "20px",
+                    "base": "8px",
+                    "gutter": "24px",
+                    "max-width": "1280px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Manrope"],
+                    "label-sm": ["Manrope"],
+                    "headline-lg": ["Literata"],
+                    "headline-lg-mobile": ["Literata"],
+                    "body-md": ["Manrope"],
+                    "headline-xl": ["Literata"]
+            },
+            "fontSize": {
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .botanical-shadow {
+            box-shadow: 0 20px 40px -10px rgba(22, 52, 40, 0.08);
+        }
+        .organic-shape {
+            border-radius: 60% 40% 70% 30% / 40% 50% 60% 70%;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop h-20 bg-surface/80 dark:bg-inverse-surface/80 backdrop-blur-md">
+<div class="font-headline-lg text-headline-lg text-primary dark:text-primary-fixed">Jardín Interior</div>
+<div class="hidden md:flex items-center gap-gutter">
+<a class="text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1 hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 active:scale-95" href="#inicio">Inicio</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 active:scale-95" href="#quienes-somos">Quiénes Somos</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 active:scale-95" href="#servicios">Servicios</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 active:scale-95" href="#contacto">Contacto</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-sm uppercase tracking-wider hover:bg-primary-container transition-all active:scale-95">
+            Agendar Cita
+        </button>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative w-full min-h-[870px] flex items-center px-margin-mobile md:px-margin-desktop overflow-hidden" id="inicio">
+<div class="max-w-max-width mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+<div class="z-10 order-2 lg:order-1">
+<span class="inline-block font-label-sm text-tertiary-fixed-variant bg-tertiary-fixed/30 px-4 py-1 rounded-full mb-6">CLÍNICA PSICOLÓGICA</span>
+<h1 class="font-headline-xl text-headline-xl text-primary mb-6 max-w-xl">
+                        Acompañamos el bienestar emocional y el desarrollo integral de tu familia
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-lg">
+                        En Clínica Psicológica Jardín Interior brindamos atención especializada para niños, adolescentes y adultos, ofreciendo un espacio seguro, humano y profesional para crecer, sanar y fortalecer el bienestar emocional.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-sm hover:opacity-90 transition-all active:scale-95 shadow-lg">
+                            Agendar Cita
+                        </button>
+<a class="border-2 border-tertiary-fixed-variant text-tertiary-fixed-variant px-8 py-4 rounded-full font-label-sm hover:bg-tertiary-fixed/10 transition-all active:scale-95 inline-flex items-center" href="#servicios">
+                            Conocer Servicios
+                        </a>
+</div>
+</div>
+<div class="relative order-1 lg:order-2 flex justify-center lg:justify-end">
+<div class="relative w-full max-w-[500px] aspect-square">
+<div class="absolute -inset-6 bg-secondary-fixed organic-shape opacity-40 animate-pulse"></div>
+<div class="absolute -inset-3 bg-primary-fixed organic-shape opacity-30 blur-2xl"></div>
+<div class="relative z-10 w-full h-full botanical-shadow">
+<video autoplay="" class="w-full h-full object-cover organic-shape scale-95" loop="" muted="" playsinline="" preload="metadata" aria-label="Animación del Jardín Interior">
+<source src="animate_202605131553.mp4" type="video/mp4"/>
+</video>
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 via-transparent to-transparent pointer-events-none organic-shape scale-95"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quiénes Somos (Asymmetric Layout) -->
+<section class="py-24 bg-surface-container-low px-margin-mobile md:px-margin-desktop" id="quienes-somos">
+<div class="max-w-max-width mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-5 relative">
+<img alt="Espacio terapéutico Jardín Interior" class="w-full h-[500px] object-cover rounded-[32px] botanical-shadow" data-alt="A warm, inviting therapy room with natural light. Soft botanical elements, comfortable seating, and a serene atmosphere designed for children, adolescents, and adults. Cream and moss-green palette evoking safety and growth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrNSH_9hEzZ4BcVj8U4_pGChkUFAtyfxBmDBTBfK6V_EhMLU43Wua90oNrdT_Bp8RRMMJPSOjTNgnx-ejG2vGWA28WSOokJ_RdtKsJjm3_TmC24wdjep0aTteQHV4KPPYaX3p3Kb_M2y0T3LAtoH1Gu7Vq8sVuImTuWrJCUCh3hVyPjynPm37xfskEvXhxL307PxIIFEkzf7uZgurII0V1fJjPc2I78SN5qNTjSOM1-DSvrf5nVzApPDQcN1OCBiC9ciBjYDygXAs"/>
+<div class="absolute -bottom-6 -right-6 bg-primary text-on-primary p-8 rounded-2xl hidden lg:block max-w-[220px]">
+<p class="font-headline-lg text-headline-lg mb-1">Atención</p>
+<p class="font-label-sm">Cálida, ética y personalizada</p>
+</div>
+</div>
+<div class="md:col-span-6 md:col-start-7 mt-12 md:mt-0">
+<span class="inline-block font-label-sm text-tertiary-fixed-variant bg-tertiary-fixed/30 px-4 py-1 rounded-full mb-6">QUIÉNES SOMOS</span>
+<h2 class="font-headline-lg text-headline-xl text-primary mb-8">Un espacio seguro para crecer, aprender y sanar</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                            En Clínica Psicológica Jardín Interior trabajamos con niños, adolescentes, adultos y familias, ofreciendo acompañamiento psicológico profesional desde una atención cálida, ética y personalizada.
+                        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                            Creemos en la importancia de atender tanto el bienestar emocional como el desarrollo integral de cada persona, fortaleciendo habilidades emocionales, familiares, cognitivas y sociales.
+                        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">
+                            Nuestro objetivo es brindar herramientas que permitan afrontar dificultades, potenciar capacidades y construir una vida con mayor equilibrio y bienestar.
+                        </p>
+<ul class="space-y-4 mb-10">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="eco">eco</span>
+<span class="font-body-md text-on-surface">Atención cálida, ética y personalizada</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="diversity_3">diversity_3</span>
+<span class="font-body-md text-on-surface">Niños, adolescentes, adultos y familias</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="psychology">psychology</span>
+<span class="font-body-md text-on-surface">Enfoque integral basado en la evidencia</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Servicios Principales (Bento Grid) -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop" id="servicios">
+<div class="max-w-max-width mx-auto">
+<div class="text-center mb-16">
+<span class="inline-block font-label-sm text-tertiary-fixed-variant bg-tertiary-fixed/30 px-4 py-1 rounded-full mb-6">SERVICIOS</span>
+<h2 class="font-headline-lg text-headline-xl text-primary mb-4">Nuestros Servicios Principales</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Atención especializada en cada etapa de la vida, con un enfoque que integra el bienestar emocional y el desarrollo personal.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Estimulación temprana (Large Feature) -->
+<div class="md:col-span-2 md:row-span-2 bg-primary text-on-primary rounded-[32px] p-10 flex flex-col justify-between overflow-hidden relative group">
+<div class="absolute top-0 right-0 p-8 opacity-10">
+<span class="material-symbols-outlined text-[160px]" data-icon="child_care">child_care</span>
+</div>
+<div class="relative z-10">
+<span class="font-label-sm bg-white/10 px-4 py-1 rounded-full border border-white/20">PRIMEROS AÑOS</span>
+<h3 class="font-headline-lg text-headline-lg mt-8 mb-4">Estimulación Temprana</h3>
+<p class="opacity-80 font-body-lg max-w-md">Acompañamos el desarrollo infantil mediante actividades especializadas que fortalecen habilidades cognitivas, motoras, sociales y del lenguaje durante los primeros años de vida.</p>
+</div>
+<div class="relative z-10 mt-12">
+<button class="bg-surface text-primary px-6 py-3 rounded-full font-label-sm">AGENDAR CITA</button>
+</div>
+</div>
+<!-- Terapia Psicológica Infantil -->
+<div class="bg-secondary-container rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
+<div>
+<div class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-primary" data-icon="emoji_people">emoji_people</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2">Terapia Psicológica Infantil</h3>
+<p class="text-on-secondary-container font-body-md">Apoyo emocional a niños con dificultades conductuales, emocionales, escolares o de adaptación, trabajando junto a sus familias.</p>
+</div>
+</div>
+<!-- Terapia para Adolescentes -->
+<div class="bg-tertiary-fixed rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
+<div>
+<div class="w-12 h-12 bg-tertiary rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-tertiary" data-icon="self_improvement">self_improvement</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg-mobile text-tertiary mb-2">Terapia para Adolescentes</h3>
+<p class="text-on-tertiary-fixed-variant font-body-md">Acompañamos procesos de identity, autoestima, ansiedad, emociones y cambios propios de la adolescencia.</p>
+</div>
+</div>
+<!-- Terapia Familiar -->
+<div class="bg-surface-container-high rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
+<div>
+<div class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-primary" data-icon="diversity_3">diversity_3</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2">Terapia Familiar</h3>
+<p class="text-on-surface-variant font-body-md">Fortalecemos la comunicación y las relaciones familiares, promoviendo dinámicas más sanas para afrontar conflictos.</p>
+</div>
+</div>
+<!-- Terapia de Pareja -->
+<div class="bg-secondary-container rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
+<div>
+<div class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-primary" data-icon="favorite" data-weight="fill" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2">Terapia de Pareja</h3>
+<p class="text-on-secondary-container font-body-md">Acompañamiento para mejorar la comunicación, resolver conflictos y fortalecer el vínculo afectivo.</p>
+</div>
+</div>
+<!-- Tutorías de lectura y escritura -->
+<div class="bg-tertiary-fixed rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
+<div>
+<div class="w-12 h-12 bg-tertiary rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-tertiary" data-icon="menu_book">menu_book</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg-mobile text-tertiary mb-2">Tutorías de Lectura y Escritura</h3>
+<p class="text-on-tertiary-fixed-variant font-body-md">Apoyo especializado para fortalecer habilidades de lectura, escritura y comprensión en niños de 6 a 8 años.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Áreas de Apoyo -->
+<section class="py-24 bg-surface-container-low px-margin-mobile md:px-margin-desktop">
+<div class="max-w-max-width mx-auto">
+<div class="text-center mb-12">
+<span class="inline-block font-label-sm text-tertiary-fixed-variant bg-tertiary-fixed/30 px-4 py-1 rounded-full mb-6">ÁREAS DE APOYO</span>
+<h2 class="font-headline-lg text-headline-xl text-primary mb-4">Acompañamos en diversas áreas del bienestar</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Abordamos un amplio espectro de necesidades emocionales y del desarrollo, adaptando cada proceso a la persona y su entorno.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Ansiedad y manejo emocional</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Problemas de conducta infantil</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Autoestima y seguridad personal</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Dificultades escolares</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Regulación emocional</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Estrés y agotamiento emocional</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Comunicación familiar</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Desarrollo infantil</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Habilidades sociales</span>
+<span class="bg-surface px-5 py-3 rounded-full text-primary font-medium border border-outline-variant hover:bg-primary hover:text-on-primary transition-all cursor-default">Procesos de duelo y cambios importantes</span>
+</div>
+</div>
+</section>
+<!-- Enfoque Profesional -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop">
+<div class="max-w-max-width mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div>
+<span class="inline-block font-label-sm text-tertiary-fixed-variant bg-tertiary-fixed/30 px-4 py-1 rounded-full mb-6">ENFOQUE PROFESIONAL</span>
+<h2 class="font-headline-lg text-headline-xl text-primary mb-8">Atención integral con enfoque humano y profesional</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                        Nuestro trabajo combina herramientas psicológicas basadas en evidencia con un acompañamiento cercano y respetuoso.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                        Cada proceso terapéutico es personalizado, considerando las necesidades emocionales, familiares y del desarrollo de cada paciente.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Creemos que la salud mental y el desarrollo infantil deben abordarse desde la empatía, la comprensión y el fortalecimiento de recursos personales y familiares.
+                    </p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-secondary-container p-6 rounded-[24px]">
+<span class="material-symbols-outlined text-primary mb-3" data-icon="science" style="font-size: 36px;">science</span>
+<h4 class="font-headline-lg text-headline-lg-mobile text-primary mb-1">Basado en Evidencia</h4>
+<p class="text-on-secondary-container font-body-md text-sm">Herramientas psicológicas con respaldo científico.</p>
+</div>
+<div class="bg-tertiary-fixed p-6 rounded-[24px] mt-8">
+<span class="material-symbols-outlined text-tertiary mb-3" data-icon="favorite" style="font-size: 36px;">favorite</span>
+<h4 class="font-headline-lg text-headline-lg-mobile text-tertiary mb-1">Acompañamiento Cercano</h4>
+<p class="text-on-tertiary-fixed-variant font-body-md text-sm">Atención cálida y respetuosa en cada sesión.</p>
+</div>
+<div class="bg-surface-container-high p-6 rounded-[24px]">
+<span class="material-symbols-outlined text-primary mb-3" data-icon="person" style="font-size: 36px;">person</span>
+<h4 class="font-headline-lg text-headline-lg-mobile text-primary mb-1">Procesos Personalizados</h4>
+<p class="text-on-surface-variant font-body-md text-sm">Adaptados a cada paciente y su contexto.</p>
+</div>
+<div class="bg-primary text-on-primary p-6 rounded-[24px] mt-8">
+<span class="material-symbols-outlined mb-3" data-icon="diversity_1" style="font-size: 36px;">diversity_1</span>
+<h4 class="font-headline-lg text-headline-lg-mobile mb-1">Mirada Integral</h4>
+<p class="opacity-80 font-body-md text-sm">Emocional, familiar y del desarrollo.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section (Glassmorphism) -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop">
+<div class="max-w-max-width mx-auto relative rounded-[40px] overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A macro photography shot of dew drops on a delicate green leaf. The background is a soft bokeh of a misty forest. The colors are rich emerald and sage greens with shimmering highlights. This visual creates a metaphor for clarity, renewal, and the clinical precision of therapy in a natural, organic environment. High resolution, professional nature photography style." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCunhuzN91mffVBqYOQ23O9zwwXCb2B9lf8PMlhDehQdebAoxMsqcHz1itFi9b0rLMLbX7dWRQmwkZuCKlvMifKLD2hz3F8jy2cq-tkVL3vtKJBMQZewNXdwmm_fip_Y3A72EQ3gP1aFr0LzjAKjbmBFdYUvpzNSoLjj71-AwHwI9G-YK_zs5gzzUbgmNXNo_9CQhfouVRsaM1NMi5QiCySiP9veY0VYkwIXQX-8GPO8aOSf_ugXQlgo_IxBe-SurQRpJtvc10Mlbk')"></div>
+<div class="relative z-10 bg-primary/80 backdrop-blur-md p-12 md:p-20 text-center flex flex-col items-center">
+<h2 class="font-headline-xl text-headline-xl text-white mb-6">Dar el primer paso puede transformar tu bienestar</h2>
+<p class="text-white/80 font-body-lg max-w-2xl mb-10">
+                        Estamos aquí para acompañarte en cada etapa del proceso emocional y del desarrollo de tu familia.
+                    </p>
+<button class="bg-white text-primary px-10 py-5 rounded-full font-label-sm hover:bg-surface-container-low transition-all active:scale-95 shadow-xl">
+                        AGENDA TU PRIMERA CITA
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full px-margin-mobile md:px-margin-desktop py-16 grid grid-cols-1 md:grid-cols-2 gap-gutter border-t border-outline-variant/30 bg-surface-container-high dark:bg-inverse-surface" id="contacto">
+<div class="flex flex-col gap-6">
+<div class="font-headline-lg text-headline-lg text-primary dark:text-primary-fixed">Jardín Interior</div>
+<p class="font-body-md text-on-surface-variant max-w-sm">
+                © 2026 Clínica Psicológica Jardín Interior. Acompañamos el bienestar emocional y el desarrollo integral de tu familia.
+            </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-outline/30 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-outline/30 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#">
+<span class="material-symbols-outlined" data-icon="mail">mail</span>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-gutter">
+<div class="flex flex-col gap-4">
+<h4 class="font-label-sm text-primary mb-2">RECURSOS</h4>
+<a class="text-on-surface-variant font-medium hover:text-tertiary dark:hover:text-tertiary-fixed-dim transition-colors duration-200" href="#servicios">Servicios</a>
+<a class="text-on-surface-variant font-medium hover:text-tertiary dark:hover:text-tertiary-fixed-dim transition-colors duration-200" href="#quienes-somos">Quiénes Somos</a>
+<a class="text-on-surface-variant font-medium hover:text-tertiary dark:hover:text-tertiary-fixed-dim transition-colors duration-200" href="#">Aviso de Privacidad</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-sm text-primary mb-2">CONTACTO</h4>
+<a class="text-on-surface-variant font-medium hover:text-tertiary dark:hover:text-tertiary-fixed-dim transition-colors duration-200" href="#">Agendar Cita</a>
+<p class="text-on-surface-variant font-body-md mt-4">Atención presencial y virtual<br/>para toda la familia.</p>
+</div>
+</div>
+</footer>
+</body></html>
