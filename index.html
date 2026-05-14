@@ -7,7 +7,6 @@
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Literata:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
@@ -119,9 +118,9 @@
 <a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 active:scale-95" href="#servicios">Servicios</a>
 <a class="text-on-surface-variant dark:text-on-surface-variant font-medium hover:text-secondary dark:hover:text-secondary-fixed-dim transition-all duration-300 active:scale-95" href="#contacto">Contacto</a>
 </div>
-<button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-sm uppercase tracking-wider hover:bg-primary-container transition-all active:scale-95">
+<a class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-sm uppercase tracking-wider hover:bg-primary-container transition-all active:scale-95 inline-flex items-center" href="#agendar">
             Agendar Cita
-        </button>
+        </a>
 </nav>
 <main class="pt-20">
 <!-- Hero Section -->
@@ -136,9 +135,9 @@
                         En Clínica Psicológica Jardín Interior brindamos atención especializada para niños, adolescentes y adultos, ofreciendo un espacio seguro, humano y profesional para crecer, sanar y fortalecer el bienestar emocional.
                     </p>
 <div class="flex flex-wrap gap-4">
-<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-sm hover:opacity-90 transition-all active:scale-95 shadow-lg">
+<a class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-sm hover:opacity-90 transition-all active:scale-95 shadow-lg inline-flex items-center" href="#agendar">
                             Agendar Cita
-                        </button>
+                        </a>
 <a class="border-2 border-tertiary-fixed-variant text-tertiary-fixed-variant px-8 py-4 rounded-full font-label-sm hover:bg-tertiary-fixed/10 transition-all active:scale-95 inline-flex items-center" href="#servicios">
                             Conocer Servicios
                         </a>
@@ -149,10 +148,7 @@
 <div class="absolute -inset-6 bg-secondary-fixed organic-shape opacity-40 animate-pulse"></div>
 <div class="absolute -inset-3 bg-primary-fixed organic-shape opacity-30 blur-2xl"></div>
 <div class="relative z-10 w-full h-full botanical-shadow">
-<video autoplay loop muted playsinline preload="metadata" aria-label="Animación del Jardín Interior" class="w-full h-full object-cover organic-shape scale-95" style="background-color: #d6e8ce;">
-<source src="./animate_202605131553.mp4" type="video/mp4"/>
-Tu navegador no soporta el formato de video.
-</video>
+<img alt="Logo Clínica Psicológica Jardín Interior" class="w-full h-full object-cover organic-shape scale-95" src="./PHOTO-2026-05-14-11-07-40.jpg"/>
 <div class="absolute inset-0 bg-gradient-to-tr from-primary/10 via-transparent to-transparent pointer-events-none organic-shape scale-95"></div>
 </div>
 </div>
@@ -164,10 +160,16 @@ Tu navegador no soporta el formato de video.
 <div class="max-w-max-width mx-auto">
 <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
 <div class="md:col-span-5 relative">
-<img alt="Espacio terapéutico Jardín Interior" class="w-full h-[500px] object-cover rounded-[32px] botanical-shadow" data-alt="A warm, inviting therapy room with natural light. Soft botanical elements, comfortable seating, and a serene atmosphere designed for children, adolescents, and adults. Cream and moss-green palette evoking safety and growth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrNSH_9hEzZ4BcVj8U4_pGChkUFAtyfxBmDBTBfK6V_EhMLU43Wua90oNrdT_Bp8RRMMJPSOjTNgnx-ejG2vGWA28WSOokJ_RdtKsJjm3_TmC24wdjep0aTteQHV4KPPYaX3p3Kb_M2y0T3LAtoH1Gu7Vq8sVuImTuWrJCUCh3hVyPjynPm37xfskEvXhxL307PxIIFEkzf7uZgurII0V1fJjPc2I78SN5qNTjSOM1-DSvrf5nVzApPDQcN1OCBiC9ciBjYDygXAs"/>
-<div class="absolute -bottom-6 -right-6 bg-primary text-on-primary p-8 rounded-2xl hidden lg:block max-w-[220px]">
+<div class="absolute -top-6 -left-6 w-32 h-32 bg-secondary-fixed organic-shape opacity-50 -z-10"></div>
+<div class="absolute -bottom-10 -right-10 w-40 h-40 bg-primary-fixed organic-shape opacity-40 blur-2xl -z-10"></div>
+<img alt="Espacio terapéutico Jardín Interior" class="w-full h-[560px] object-cover rounded-[32px] botanical-shadow" src="./Pictures/therapy-room.jpeg"/>
+<div class="absolute -bottom-6 -right-6 bg-primary text-on-primary p-8 rounded-2xl hidden lg:block max-w-[240px] botanical-shadow">
 <p class="font-headline-lg text-headline-lg mb-1">Atención</p>
 <p class="font-label-sm">Cálida, ética y personalizada</p>
+</div>
+<div class="absolute top-6 left-6 bg-surface/90 backdrop-blur-md px-4 py-2 rounded-full hidden md:flex items-center gap-2 botanical-shadow">
+<span class="material-symbols-outlined text-primary text-base" style="font-size: 18px;">eco</span>
+<span class="font-label-sm text-primary">NUESTRO ESPACIO</span>
 </div>
 </div>
 <div class="md:col-span-6 md:col-start-7 mt-12 md:mt-0">
@@ -209,22 +211,19 @@ Tu navegador no soporta el formato de video.
 <p class="text-on-surface-variant max-w-2xl mx-auto">Atención especializada en cada etapa de la vida, con un enfoque que integra el bienestar emocional y el desarrollo personal.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<!-- Estimulación temprana (Large Feature) -->
-<div class="md:col-span-2 md:row-span-2 bg-primary text-on-primary rounded-[32px] p-10 flex flex-col justify-between overflow-hidden relative group">
-<div class="absolute top-0 right-0 p-8 opacity-10">
-<span class="material-symbols-outlined text-[160px]" data-icon="child_care">child_care</span>
-</div>
-<div class="relative z-10">
-<span class="font-label-sm bg-white/10 px-4 py-1 rounded-full border border-white/20">PRIMEROS AÑOS</span>
-<h3 class="font-headline-lg text-headline-lg mt-8 mb-4">Estimulación Temprana</h3>
-<p class="opacity-80 font-body-lg max-w-md">Acompañamos el desarrollo infantil mediante actividades especializadas que fortalecen habilidades cognitivas, motoras, sociales y del lenguaje durante los primeros años de vida.</p>
-</div>
-<div class="relative z-10 mt-12">
-<button class="bg-surface text-primary px-6 py-3 rounded-full font-label-sm">AGENDAR CITA</button>
+<!-- Estimulación temprana (Large Feature with image) -->
+<div class="md:col-span-2 md:row-span-2 bg-primary text-on-primary rounded-[32px] overflow-hidden relative group hover:shadow-2xl transition-shadow duration-500">
+<img alt="Estimulación temprana con niños" class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700" src="./Pictures/early-stimulation.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-primary/20"></div>
+<div class="relative z-10 p-10 flex flex-col justify-end min-h-[500px] h-full">
+<span class="font-label-sm bg-white/15 backdrop-blur-sm px-4 py-1.5 rounded-full border border-white/25 w-fit">PRIMEROS AÑOS</span>
+<h3 class="font-headline-lg text-headline-lg mt-6 mb-4">Estimulación Temprana</h3>
+<p class="opacity-90 font-body-lg max-w-md mb-8">Acompañamos el desarrollo infantil mediante actividades especializadas que fortalecen habilidades cognitivas, motoras, sociales y del lenguaje durante los primeros años de vida.</p>
+<a class="bg-surface text-primary px-6 py-3 rounded-full font-label-sm hover:bg-primary-fixed transition-all active:scale-95 w-fit inline-flex items-center" href="#agendar">AGENDAR CITA</a>
 </div>
 </div>
 <!-- Terapia Psicológica Infantil -->
-<div class="bg-secondary-container rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
+<div class="bg-secondary-container rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300 botanical-shadow">
 <div>
 <div class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mb-6">
 <span class="material-symbols-outlined text-on-primary" data-icon="emoji_people">emoji_people</span>
@@ -233,28 +232,32 @@ Tu navegador no soporta el formato de video.
 <p class="text-on-secondary-container font-body-md">Apoyo emocional a niños con dificultades conductuales, emocionales, escolares o de adaptación, trabajando junto a sus familias.</p>
 </div>
 </div>
-<!-- Terapia para Adolescentes -->
-<div class="bg-tertiary-fixed rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
-<div>
-<div class="w-12 h-12 bg-tertiary rounded-2xl flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-on-tertiary" data-icon="self_improvement">self_improvement</span>
+<!-- Terapia para Adolescentes (with image) -->
+<div class="rounded-[32px] overflow-hidden relative group hover:scale-[1.02] transition-transform duration-300 botanical-shadow min-h-[280px]">
+<img alt="Sesión de terapia con adolescente" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="./Pictures/adolescent-therapy.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tertiary via-tertiary/70 to-transparent"></div>
+<div class="relative z-10 p-8 flex flex-col justify-end h-full">
+<div class="w-11 h-11 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-4 border border-white/30">
+<span class="material-symbols-outlined text-white" data-icon="self_improvement">self_improvement</span>
 </div>
-<h3 class="font-headline-lg text-headline-lg-mobile text-tertiary mb-2">Terapia para Adolescentes</h3>
-<p class="text-on-tertiary-fixed-variant font-body-md">Acompañamos procesos de identidad, autoestima, ansiedad, emociones y cambios propios de la adolescencia.</p>
+<h3 class="font-headline-lg text-headline-lg-mobile text-white mb-2">Terapia para Adolescentes</h3>
+<p class="text-white/90 font-body-md">Identidad, autoestima, ansiedad y cambios propios de la adolescencia.</p>
 </div>
 </div>
-<!-- Terapia Familiar -->
-<div class="bg-surface-container-high rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
-<div>
-<div class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-on-primary" data-icon="diversity_3">diversity_3</span>
+<!-- Terapia Familiar (with image) -->
+<div class="rounded-[32px] overflow-hidden relative group hover:scale-[1.02] transition-transform duration-300 botanical-shadow min-h-[280px]">
+<img alt="Familia unida en terapia familiar" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="./Pictures/family.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/70 to-transparent"></div>
+<div class="relative z-10 p-8 flex flex-col justify-end h-full">
+<div class="w-11 h-11 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-4 border border-white/30">
+<span class="material-symbols-outlined text-white" data-icon="diversity_3">diversity_3</span>
 </div>
-<h3 class="font-headline-lg text-headline-lg-mobile text-primary mb-2">Terapia Familiar</h3>
-<p class="text-on-surface-variant font-body-md">Fortalecemos la comunicación y las relaciones familiares, promoviendo dinámicas más sanas para afrontar conflictos.</p>
+<h3 class="font-headline-lg text-headline-lg-mobile text-white mb-2">Terapia Familiar</h3>
+<p class="text-white/90 font-body-md">Fortalecemos la comunicación y las relaciones para afrontar conflictos juntos.</p>
 </div>
 </div>
 <!-- Terapia de Pareja -->
-<div class="bg-secondary-container rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
+<div class="bg-secondary-container rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300 botanical-shadow">
 <div>
 <div class="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center mb-6">
 <span class="material-symbols-outlined text-on-primary" data-icon="favorite" data-weight="fill" style="font-variation-settings: 'FILL' 1;">favorite</span>
@@ -263,14 +266,16 @@ Tu navegador no soporta el formato de video.
 <p class="text-on-secondary-container font-body-md">Acompañamiento para mejorar la comunicación, resolver conflictos y fortalecer el vínculo afectivo.</p>
 </div>
 </div>
-<!-- Tutorías de lectura y escritura -->
-<div class="bg-tertiary-fixed rounded-[32px] p-8 flex flex-col justify-between hover:scale-[1.02] transition-transform duration-300">
-<div>
-<div class="w-12 h-12 bg-tertiary rounded-2xl flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-on-tertiary" data-icon="menu_book">menu_book</span>
+<!-- Tutorías de lectura y escritura (with image) -->
+<div class="rounded-[32px] overflow-hidden relative group hover:scale-[1.02] transition-transform duration-300 botanical-shadow min-h-[280px]">
+<img alt="Niño aprendiendo a escribir" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="./Pictures/child-writing.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tertiary via-tertiary/70 to-transparent"></div>
+<div class="relative z-10 p-8 flex flex-col justify-end h-full">
+<div class="w-11 h-11 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-4 border border-white/30">
+<span class="material-symbols-outlined text-white" data-icon="menu_book">menu_book</span>
 </div>
-<h3 class="font-headline-lg text-headline-lg-mobile text-tertiary mb-2">Tutorías de Lectura y Escritura</h3>
-<p class="text-on-tertiary-fixed-variant font-body-md">Apoyo especializado para fortalecer habilidades de lectura, escritura y comprensión en niños de 6 a 8 años.</p>
+<h3 class="font-headline-lg text-headline-lg-mobile text-white mb-2">Tutorías de Lectura y Escritura</h3>
+<p class="text-white/90 font-body-md">Apoyo especializado para niños de 6 a 8 años.</p>
 </div>
 </div>
 </div>
@@ -340,6 +345,50 @@ Tu navegador no soporta el formato de video.
 </div>
 </div>
 </section>
+<!-- Modalidades de Atención -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop" id="agendar">
+<div class="max-w-max-width mx-auto">
+<div class="text-center mb-16">
+<span class="inline-block font-label-sm text-tertiary-fixed-variant bg-tertiary-fixed/30 px-4 py-1 rounded-full mb-6">MODALIDADES</span>
+<h2 class="font-headline-lg text-headline-xl text-primary mb-4">Atención presencial y en línea</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto">Elige la modalidad que mejor se adapte a tus necesidades, manteniendo siempre la calidad y cercanía de nuestro acompañamiento.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Presencial -->
+<div class="rounded-[32px] overflow-hidden relative group hover:shadow-2xl transition-shadow duration-500 min-h-[420px] botanical-shadow">
+<img alt="Espacio terapéutico presencial" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="./Pictures/therapy-room.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/60 to-transparent"></div>
+<div class="relative z-10 p-10 flex flex-col justify-end h-full">
+<div class="w-12 h-12 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 border border-white/30">
+<span class="material-symbols-outlined text-white" data-icon="home">home</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-white mb-3">Atención Presencial</h3>
+<p class="text-white/90 font-body-md max-w-md mb-6">Te recibimos en un espacio diseñado para sentirte seguro: luz natural, vegetación y un ambiente cálido pensado para cada etapa de la vida.</p>
+<a class="inline-flex items-center gap-2 bg-white text-primary px-6 py-3 rounded-full font-label-sm hover:bg-primary-fixed transition-all active:scale-95 w-fit shadow-lg" href="https://wa.me/50242097481?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20presencial%20en%20Jard%C3%ADn%20Interior." rel="noopener" target="_blank">
+<span class="material-symbols-outlined" style="font-size: 18px;">event_available</span>
+AGENDAR CITA PRESENCIAL
+</a>
+</div>
+</div>
+<!-- En línea -->
+<div class="rounded-[32px] overflow-hidden relative group hover:shadow-2xl transition-shadow duration-500 min-h-[420px] botanical-shadow">
+<img alt="Sesión de therapy en línea por videollamada" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="./Pictures/online-therapy.jpeg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tertiary via-tertiary/60 to-transparent"></div>
+<div class="relative z-10 p-10 flex flex-col justify-end h-full">
+<div class="w-12 h-12 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-6 border border-white/30">
+<span class="material-symbols-outlined text-white" data-icon="videocam">videocam</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-white mb-3">Atención en Línea</h3>
+<p class="text-white/90 font-body-md max-w-md mb-6">Sesiones virtuales con la misma calidad y cercanía, desde donde te sientas cómodo. Ideal para personas con agendas exigentes o desde otras ciudades.</p>
+<a class="inline-flex items-center gap-2 bg-white text-tertiary px-6 py-3 rounded-full font-label-sm hover:bg-tertiary-fixed transition-all active:scale-95 w-fit shadow-lg" href="https://wa.me/50242097481?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20virtual%20en%20Jard%C3%ADn%20Interior." rel="noopener" target="_blank">
+<span class="material-symbols-outlined" style="font-size: 18px;">videocam</span>
+AGENDAR CITA VIRTUAL
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
 <!-- CTA Section (Glassmorphism) -->
 <section class="py-24 px-margin-mobile md:px-margin-desktop">
 <div class="max-w-max-width mx-auto relative rounded-[40px] overflow-hidden">
@@ -349,9 +398,20 @@ Tu navegador no soporta el formato de video.
 <p class="text-white/80 font-body-lg max-w-2xl mb-10">
                         Estamos aquí para acompañarte en cada etapa del proceso emocional y del desarrollo de tu familia.
                     </p>
-<button class="bg-white text-primary px-10 py-5 rounded-full font-label-sm hover:bg-surface-container-low transition-all active:scale-95 shadow-xl">
-                        AGENDA TU PRIMERA CITA
-                    </button>
+<div class="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-2 bg-white text-primary px-8 py-5 rounded-full font-label-sm hover:bg-surface-container-low transition-all active:scale-95 shadow-xl" href="https://wa.me/50242097481?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20presencial%20en%20Jard%C3%ADn%20Interior." rel="noopener" target="_blank">
+<span class="material-symbols-outlined" style="font-size: 20px;">event_available</span>
+AGENDAR CITA PRESENCIAL
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-tertiary-fixed text-tertiary px-8 py-5 rounded-full font-label-sm hover:bg-white transition-all active:scale-95 shadow-xl" href="https://wa.me/50242097481?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita%20virtual%20en%20Jard%C3%ADn%20Interior." rel="noopener" target="_blank">
+<span class="material-symbols-outlined" style="font-size: 20px;">videocam</span>
+AGENDAR CITA VIRTUAL
+</a>
+</div>
+<div class="flex items-center gap-2 mt-6 text-white/70 text-sm">
+<span class="material-symbols-outlined" style="font-size: 18px;">call</span>
+<span>WhatsApp +502 4209 7481</span>
+</div>
 </div>
 </div>
 </section>
